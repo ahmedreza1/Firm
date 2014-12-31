@@ -1,0 +1,12 @@
+<h1>Firm</h1>
+
+<p>Hi <%= @user.name %>,</p>
+
+<p>
+Welcome to Firm! Firm is Indias's own Social Network.
+We are glad that you are now a member of the community.
+Just one more step. Click on the link below to activate your account:
+</p>
+
+<%= link_to "Activate", edit_account_activation_url(@user.activation_token,
+                                                    email: @user.email) %>
