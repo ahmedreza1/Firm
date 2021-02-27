@@ -1,4 +1,4 @@
-/*====================================
+        /*====================================
 [ Table of Contents ]
 =====================================
 :: Imports
@@ -27,58 +27,67 @@
 /*== Placeholder  ==*/
 /*== Break Points ==*/
 /*== Fonts ==*/
+
+@import url(//db.onlinewebfonts.com/c/8dfe6a4e67e8b5ea85c28970140f6987?family=URWAmericanaT);
+@import url(//db.onlinewebfonts.com/c/5d6f50ed2dde0e4ad455448f896c09f0?family=Gotham);
+@import url(//db.onlinewebfonts.com/c/924ee4158324c02e3e0d62e54cafd14f?family=Gotham+Book);
+@import url(//db.onlinewebfonts.com/c/9a2bc11be56851dde98c1b49302cc21a?family=Gotham+Medium);
+@import url(//db.onlinewebfonts.com/c/edc378fa3251080c5b508b220462efca?family=Gotham);
+@import url(//db.onlinewebfonts.com/c/dd7ed1bbae26e7b7971cd33d0347473c?family=Beauty+maheyrah+Free);
+@import url(//db.onlinewebfonts.com/c/b4f113f2522625e9f6dbf55da1b15b97?family=Airin);
+
 @font-face {
   font-family: "Gotham-Bold";
-  src: url("../fonts/Gotham-Bold/Gotham-Bold.woff2") format("woff2"), url("../fonts/Gotham-Bold/Gotham-Bold.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.woff") format("woff"), url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.svg#Gotham") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham-Book";
-  src: url("../fonts/Gotham-Book/Gotham-Book.woff2") format("woff2"), url("../fonts/Gotham-Book/Gotham-Book.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.woff") format("woff"), url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.svg#Gotham Book") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "GothamBook";
-  src: url("../fonts/GothamBook/Gotham-Book.woff2") format("woff2"), url("../fonts/GothamBook/Gotham-Book.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.woff") format("woff"), url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.svg#Gotham Book") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham-Medium";
-  src: url("../fonts/Gotham-Medium/Gotham-Medium.woff2") format("woff2"), url("../fonts/Gotham-Medium/Gotham-Medium.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/9a2bc11be56851dde98c1b49302cc21a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9a2bc11be56851dde98c1b49302cc21a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9a2bc11be56851dde98c1b49302cc21a.woff") format("woff"), url("//db.onlinewebfonts.com/t/9a2bc11be56851dde98c1b49302cc21a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9a2bc11be56851dde98c1b49302cc21a.svg#Gotham Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham-Thin";
-  src: url("../fonts/Gotham-Thin/Gotham-Thin.woff2") format("woff2"), url("../fonts/Gotham-Thin/Gotham-Thin.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff") format("woff"), url("//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham") format("svg");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Beauty maheyrah Free";
-  src: url("../fonts/BeautymaheyrahFree/BeautymaheyrahFree.woff2") format("woff2"), url("../fonts/BeautymaheyrahFree/BeautymaheyrahFree.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/dd7ed1bbae26e7b7971cd33d0347473c.eot"); src: url("//db.onlinewebfonts.com/t/dd7ed1bbae26e7b7971cd33d0347473c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dd7ed1bbae26e7b7971cd33d0347473c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dd7ed1bbae26e7b7971cd33d0347473c.woff") format("woff"), url("//db.onlinewebfonts.com/t/dd7ed1bbae26e7b7971cd33d0347473c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dd7ed1bbae26e7b7971cd33d0347473c.svg#Beauty maheyrah Free") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Airin";
-  src: url("../fonts/Arin/Airin.woff2") format("woff2"), url("../fonts/Arin/Airin.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/b4f113f2522625e9f6dbf55da1b15b97.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b4f113f2522625e9f6dbf55da1b15b97.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b4f113f2522625e9f6dbf55da1b15b97.woff") format("woff"), url("//db.onlinewebfonts.com/t/b4f113f2522625e9f6dbf55da1b15b97.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b4f113f2522625e9f6dbf55da1b15b97.svg#Airin") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "AmericanaEFOP";
-  src: url("../fonts/AmericanaEFOP-Regular/AmericanaEFOP-Regular.woff2") format("woff2"), url("../fonts/AmericanaEFOP-Regular/AmericanaEFOP-Regular.woff") format("woff");
+  font-family: "URWAmericanaT";
+  src: url("//db.onlinewebfonts.com/t/8dfe6a4e67e8b5ea85c28970140f6987.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8dfe6a4e67e8b5ea85c28970140f6987.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8dfe6a4e67e8b5ea85c28970140f6987.woff") format("woff"), url("//db.onlinewebfonts.com/t/8dfe6a4e67e8b5ea85c28970140f6987.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8dfe6a4e67e8b5ea85c28970140f6987.svg#URWAmericanaT") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -266,7 +275,7 @@ select {
   position: relative;
   width: 100%;
   z-index: 99;
-  background: url(images/drop_arr1.svg) no-repeat calc(100% - 15px);
+  background: url(https://intlum.in/html/sola-wood/images/drop_arr1.svg) no-repeat calc(100% - 15px);
   padding-right: 30px !important;
   overflow: hidden;
   outline: none !important;
@@ -362,7 +371,7 @@ select::-ms-expand {
 ._leafDecor {
   position: relative;
   padding-bottom: 28px;
-  background-image: url(../images/leaft-img.png);
+  background-image: url(../https://intlum.in/html/sola-wood/images/leaft-img.png);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: auto;
@@ -391,7 +400,7 @@ select::-ms-expand {
   padding: 10px 20px;
   padding-right: 30px;
   box-shadow: 4px 4px 0px 0px white;
-  background-image: url(../images/caret-right-white.png);
+  background-image: url(../https://intlum.in/html/sola-wood/images/caret-right-white.png);
   background-repeat: no-repeat;
   background-position: calc(100% - 15px) center;
   transition: all 0.4s;
@@ -704,7 +713,7 @@ select::-ms-expand {
   position: absolute;
   height: 85px;
   width: 85px;
-  background-image: url(../images/logo-underlay.png);
+  background-image: url(../https://intlum.in/html/sola-wood/images/logo-underlay.png);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -955,7 +964,7 @@ select::-ms-expand {
 }
 
 .clickD {
-  background: url(../images/arrow-down-white.png) no-repeat;
+  background: url(../https://intlum.in/html/sola-wood/images/arrow-down-white.png) no-repeat;
   right: 30px;
   height: 15px;
   width: 15px;
@@ -968,7 +977,7 @@ select::-ms-expand {
   .clickD {
     top: 13px;
     right: 0px;
-    background: url(../images/down-arrow-dark-10.png) no-repeat;
+    background: url(../https://intlum.in/html/sola-wood/images/down-arrow-dark-10.png) no-repeat;
     background-position: center;
     background-size: 8px;
   }
@@ -1175,7 +1184,7 @@ select::-ms-expand {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  background-image: url(../images/icon-background.png);
+  background-image: url(../https://intlum.in/html/sola-wood/images/icon-background.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1269,7 +1278,7 @@ select::-ms-expand {
 =========== Product Section ===========
 ======================================*/
 ._productSection {
-  background-image: url(../images/green-background.jpg);
+  background-image: url(../https://intlum.in/html/sola-wood/images/green-background.jpg);
   background-repeat: no-repeat;
   background-color: #ebf8f1;
   background-size: cover;
@@ -1459,7 +1468,7 @@ select::-ms-expand {
 ======================================*/
 ._favouriteSection {
   background-color: #e8e9e9;
-  background-image: url(../images/faviorate-background.jpg);
+  background-image: url(../https://intlum.in/html/sola-wood/images/faviorate-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 0;
@@ -1484,7 +1493,7 @@ select::-ms-expand {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url(../images/glow.png);
+  background-image: url(../https://intlum.in/html/sola-wood/images/glow.png);
   background-repeat: no-repeat;
   z-index: -1;
   background-size: contain;
@@ -1514,7 +1523,7 @@ select::-ms-expand {
 }
 @media (min-width: 1200px) {
   ._favouriteSection ._caption-heading {
-    font-size: 110px;
+    font-size: 96px;
   }
 }
 ._favouriteSection ._caption-heading ._fav {
@@ -1532,7 +1541,7 @@ select::-ms-expand {
 @media (min-width: 1200px) {
   ._favouriteSection ._caption-heading ._fav {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 0px;
   }
 }
 ._favouriteSection ._desc {
@@ -1559,7 +1568,7 @@ select::-ms-expand {
 ======================================*/
 ._testimonialSection {
   background-color: #fbfaf6;
-  background-image: url(../images/test-bg.jpg);
+  background-image: url(../https://intlum.in/html/sola-wood/images/test-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1667,7 +1676,7 @@ select::-ms-expand {
 }
 ._slickSlider .slick-arrow.slick-prev {
   left: calc(50% - 50px);
-  background-image: url(../images/left-caret-grp.png);
+  background-image: url(../https://intlum.in/html/sola-wood/images/left-caret-grp.png);
   background-repeat: no-repeat;
   background-position: 13px center;
 }
@@ -1684,7 +1693,7 @@ select::-ms-expand {
 }
 ._slickSlider .slick-arrow.slick-next {
   right: calc(50% - 50px);
-  background-image: url(../images/right-caret-grp.png);
+  background-image: url(../https://intlum.in/html/sola-wood/images/right-caret-grp.png);
   background-repeat: no-repeat;
   background-position: -15px center;
 }
@@ -1721,7 +1730,7 @@ select::-ms-expand {
   position: absolute;
   height: 40px;
   width: 40px;
-  background-image: url(../images/hear-1.png);
+  background-image: url(../https://intlum.in/html/sola-wood/images/hear-1.png);
   background-repeat: no-repeat;
   right: -40px;
   top: -35px;
@@ -1829,7 +1838,7 @@ select::-ms-expand {
 =========== Footer ============
 ======================================*/
 ._footer {
-  background-image: url(../images/footer-banner.jpg);
+  background-image: url(../https://intlum.in/html/sola-wood/images/footer-banner.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-color: #f2e1d9;
@@ -2046,7 +2055,7 @@ select::-ms-expand {
   background-color: #f0a0a6;
   border-radius: 0;
   width: 40px;
-  background-image: url(../images/right-double-arrow.png);
+  background-image: url(../https://intlum.in/html/sola-wood/images/right-double-arrow.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -2256,4 +2265,3 @@ select::-ms-expand {
   text-decoration: underline;
 }
 
-/*# sourceMappingURL=style.css.map */
